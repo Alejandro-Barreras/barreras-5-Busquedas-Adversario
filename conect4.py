@@ -198,8 +198,8 @@ if __name__ == '__main__':
         "Jugador 2": "Negamax",   #Puede ser "Humano", "Aleatorio", "Negamax", "Tiempo"
         "profundidad máxima": 5,
         "tiempo": 10,
-        "ordena": ordena_centro,    #Puede ser None o una función f(jugadas, j) -> lista de jugadas ordenada
-        "evalua": evalua_3con       #Puede ser None o una función f(estado) -> número entre -1 y 1
+        "ordena": ordena_prioridades,    #Puede ser None o una función f(jugadas, j) -> lista de jugadas ordenada
+        "evalua": evalua_mejorada       #Puede ser None o una función f(estado) -> número entre -1 y 1
     }
 
     def jugador_cfg(cadena):
