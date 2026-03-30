@@ -151,8 +151,7 @@ class InterfaceOtello(js.JuegoInterface):
 
     def muestra_ganador(self, g):
         """
-        Muestra el ganador del juego, se puede usar " XO"[g] para mostrar el
-        ganador de forma más amigable
+        Muestra el ganador del juego.
 
         """
         if g != 0:
